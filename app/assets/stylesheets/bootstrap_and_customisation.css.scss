@@ -8,12 +8,13 @@ $navbar-default-brand-color: #c0392b;
 $brand-primary:  #c0392b;
 $jumobotron-bg: white;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {
 	text-align: center;
 }
 
-.navbar.brand {
-	font-weight: bold; 
+.navbar-brand {
+	font-weight: bolder; 
 }
